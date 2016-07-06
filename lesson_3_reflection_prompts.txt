@@ -1,1 +1,46 @@
-When would you want to use a remote repository rather than keeping all your work local?
+When would you want to use a remote repository rather than keeping all your work
+local?
+
+    Remote reprository enables collabration between multiple users of the same
+    project. Also is a back up of my data remotely. It also helps me to see who
+    is working on this project and what changes are made so we can all work
+    effectively.
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+    If i am in the middle of some change then i would like to finish it and
+    then sync to the latest if needed. Also if there are conflicts due to my
+    changes i would rather resolve the conflicts once before pushing the
+    changes to remote instead of making changes every time git auto syncs.
+
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+    Fork is used when we want to start off with someone else's project
+    in gitbug and make a copy of it on our github account. Clone is used
+    when we want to create copies of the remote to local repository.
+    branch is used in locl repos to make any changes and then merge on to
+    master branch or push into remote.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+    so then later when we fetch or when we change our local master we know 
+    if we are in sync or if we are ahead or diverged so we can merge accordingly.
+
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+    Without git or github we would have to do a lot of manual tracking
+    merging etc, and it would be difficult to track every change and which made
+    to master and which is pending review. It would be difficult to copy code
+    and have lots of bugs introduced because of that.
+
+When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+
+    It helps us to keep our changes separate from master and get it reviewed before
+    it can get into master. This will help us from breaking an existing or clean
+    working master branch with information that might not be as good for production
+    yet.
