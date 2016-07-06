@@ -1,0 +1,44 @@
+What happens when you initialize a repository? Why do you need to do it?
+	It creates a .git folder which will help save revisions of my project
+	or files locally. It will keep track of my changes so then i can use
+	powerful git comands to work through the project.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+	Staging area allows me to only add files that i need to be pushed to the
+	repository. If i am making changes to multiple files i will only choose
+	which changes/files i need for a particular commit and push them. Those
+	files will be in staging area before i commit them.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+	Once files are in staging area we can check the diff between staged files
+	and the one as part of the working directory. The diff can clearly tell us
+	what changes have been made and ready to commit. Looking at the changes gives
+	us an idea if we have a logical change per commit.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+	branches let you work on experiemental changes or bug fixes independent of
+	the main production or master branch. It will keep track of all my commits
+	in the branch and when i merge the changes to the master branch, it will
+	carry over all commits so the commit history is still not lost.
+
+How do the diagrams help you visualize the branch structure?
+	The diagrams show a very quick consice way of branch structure, though
+	i visulaize the structure on top of head, the diagrams help me understand
+	quickly if it is what i expect.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+	It merges changes from one branch to another. Git will take care of
+	merging the files changed automatically. We represent it in that diagram
+	so it explains the state of each branch as to which commit we are in etc
+	and then what will get merged when we do git merge and at what point of the
+	branch are we merging.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+	Git's automatic merging takes care of merging multiple files and multiple lines
+	of code which will be difficult for a user to take care and as a user manually
+	merging might introduce way too many bugs if we loose track of all changes.

@@ -1,0 +1,53 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It was quick and easy to spot what changed to see what caused the bug, if
+    not we will have to go through the whole file to understand and will take
+    a long time.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It shows me how the file evolved and what changes were made and who made
+    it and let's me revert to any version if in case i made a big mistake
+    and need to revert to an old working version and start over from there again.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    When we want to segregate each commit to a particular functionality or
+    a bug fix. So later i can identify a commit to a particular item i am 
+    looking for. if it auto saves, sometimes when i am in the middle of
+    a particular bug fix or feature a commit might be created making it
+    very difficult to trace back later.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git allows us to save multiple files in one commit because in programming or
+    coding, a particular bug or a feature might involve making changes to
+    multiple files, only when changes are made in all those files will the
+    feature work as intended so git let's us track multiple files in one
+    commit.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log shows the entire commit history of a particular branch we have checked
+    out. git diff on the other hand shows the different between the staging area
+    the working area.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    If i currently have a working solution without git it would be impossible to
+    revert back to my working solution if i make some changes and save it. There
+    might be multiple changes which i will loose track of and tracking the changes
+    in git would be give me more confident as i know i can always revert back to
+    what was working even if broke something.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Make changes, track my changes using commit history, try some new features
+    without the fear of loosing my currently working solution. Try and play
+    with branches commits merge etc.
